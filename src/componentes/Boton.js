@@ -1,4 +1,5 @@
 import React from 'react'
+import '../hojas-de-estilo/Boton.css'
 
 export default function Boton(props) {
 
