@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './componentes/Boton';
+import Pantalla from './componentes/Pantalla';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <h1>Calculadora 🧮</h1>
       </div>
       <div className='contenedor-calculadora'>
+        <Pantalla />
         <div className='fila'>
           <Boton>7</Boton>
           <Boton>8</Boton>
