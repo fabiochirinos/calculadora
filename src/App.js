@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './componentes/Boton';
+import BotonClear from './componentes/BotonClear';
 import Pantalla from './componentes/Pantalla';
 
 
@@ -35,7 +36,9 @@ function App() {
           <Boton>=</Boton>
           <Boton>+</Boton>
         </div>
-        <div className='fila'></div>
+        <div className='fila'>
+          <BotonClear>Borrar</BotonClear>
+        </div>
       </div>
     </div>
   );
