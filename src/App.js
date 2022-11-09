@@ -11,16 +11,12 @@ function App() {
   const [input, setInput] = useState('');
 
   const agregarInput = valor => {
-    try {
-      setInput(input + valor);
-      if (input === '/' || input === '*' || input === '-' || input === '+') {
-        setInput('');
-      }
-      if (input === '.' && valor === '.') {
-        setInput('')
-      }
-    } catch (e) {
-      setInput('Error')
+    setInput(input + valor);
+    if (input === '/' || input === '*' || input === '-' || input === '+') {
+      setInput('');
+    }
+    if (input === '.' && valor === '.') {
+      setInput('')
     }
   };
 
